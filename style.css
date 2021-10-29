@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.slider figure div {
+  float: left;
+  width: 20%;
+}
+
+.slider figure img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  opacity: 0.9;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  animation: animate 70s infinite;
+}
+
+@keyframes animate {
+  0% {
+    left: 0%;
+  }
+  10% {
+    left: 0%;
+  }
+  12% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  24% {
+    left: -200%;
+  }
+  34% {
+    left: -200%;
+  }
+  36% {
+    left: -300%;
+  }
+  46% {
+    left: -300%;
+  }
+  48% {
+    left: -400%;
+  }
+  58% {
+    left: -400%;
+  }
+  60% {
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  72% {
+    left: -200%;
+  }
+  82% {
+    left: -200%;
+  }
+  84% {
+    left: -100%;
+  }
+  94% {
+    left: -100%;
+  }
+  96% {
+    left: 0%;
+  }
+}
+
+.body .logo img {
+  transform: translate(50px, -13rem);
+  position: relative;
+}
+
+.body .navbar {
+  position: relative;
+  transform: translate(0, -46rem);
+}
+
+.body .navbar {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.body .navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.body .navbar ul li {
+  font-size: large;
+  list-style: none;
+  display: inline;
+  padding: 25px 55px;
+}
+
+.body .navbar ul .home-nav a:hover {
+  color: black;
+  transition: 0.5s;
+  border-radius: 3px;
+  background: white;
+  text-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+  box-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+}
+
+.body .navbar ul .about-nav a:hover {
+  color: black;
+  transition: 0.5s;
+  border-radius: 3px;
+  background: white;
+  text-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+  box-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+}
+
+.body .navbar ul .os-nav a:hover {
+  color: black;
+  transition: 0.5s;
+  border-radius: 3px;
+  background: white;
+  text-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+  box-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+}
+
+.body .navbar ul .sd-nav a:hover {
+  color: black;
+  transition: 0.5s;
+  border-radius: 3px;
+  background: white;
+  text-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+  box-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+}
+
+.body .navbar ul .cu-nav a:hover {
+  color: black;
+  transition: 0.5s;
+  border-radius: 3px;
+  background: white;
+  text-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+  box-shadow: 0 0 3px white, 0 0 20px white, 0 0 40px white, 0 0 80px white,
+    0 0 160px white;
+}
+
+.body .about {
+  width: 90vw;
+  margin-left: 100px;
+  margin-top: -100px;
+}
+
+.body .about p {
+  /* width: 350px; */
+  font-size: large;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.body .about .about-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.body .about .about-cont .about-image img {
+  position: relative;
+  width: 20rem;
+  height: 25rem;
+  padding: 0 20px;
+  transition: 1s;
+}
+
+.body .about .about-title .jhp {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 10px;
+}
+
+.body .about .about-image p {
+  font-family: "Merriweather", serif;
+  font-size: xx-large;
+}
+
+.body .about .about-image .julie {
+  margin: 0 0 0 113px;
+}
+.body .about .about-image .brett {
+  margin: 0 113px 0 0;
+}
+
+.body .services .services-bg {
+  width: 99.5vw;
+  /* opacity: 0.4; */
+}
+
+.body .services .services-content {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 200px;
+  transform: translate(0, -27rem);
+  text-align: center;
+}
+
+.body .services .services-content img {
+  position: relative;
+  width: 250px;
+  padding: 10px;
+}
+
+.body .services-mse .services-cont {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  transform: translate(0, -38rem);
+}
+
+.body .services-mse .services-cont .services-wrap {
+  position: relative;
+  margin: 0 50px;
+  padding: 10px;
+  text-decoration: underline;
+  transition: 0.9s;
+}
+
+.body .services-mse .services-cont .services-skill {
+  position: relative;
+  margin-top: 200px;
+}
+
+.body .services-mse .services-cont .services-skill h2 {
+  padding: 10px;
+}
+
+.body .services-mse .services-cont img {
+  width: 450px;
+}
+
+.body .services-world .container {
+  transform: translate(120px, -30rem);
+}
+
+.body .services-world .container .row {
+  position: relative;
+}
+
+.body .services-world .world-cont {
+  position: relative;
+}
+
+.body .services-world .world-cont img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.body .services-world .world-p {
+  position: relative;
+  display: flex;
+  text-align: center;
+  transform: translate(-210px, 0);
+}
+
+.body .services-world .world-p p:nth-child(1) {
+  background: rgb(93, 129, 57);
+}
+.body .services-world .world-p p:nth-child(2) {
+  background: rgb(220, 238, 55);
+}
+.body .services-world .world-p p:nth-child(3) {
+  background: rgb(57, 121, 73);
+}
+.body .services-world .world-p p:nth-child(4) {
+  background: chartreuse;
+}
+
+.footer .footer-media {
+  display: flex;
+}
+
+.footer .footer-media ul li {
+  list-style: none;
+  border: 1px solid white;
+  width: 30px;
+  text-align: center;
+  border-radius: 15%;
+}
+
+.footer .footer-media ul a li {
+  color: black;
+}
+
+.footer .footer-media ul li:hover {
+  border-radius: 50%;
+  transition: 1s;
+  background: white;
+}
+
+.footer .footer-media ul li:hover {
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.footer {
+  background: rgb(40, 150, 139);
+  margin-top: -300px;
+}
+
+.footer .container {
+  margin-left: 170px;
+  color: white;
+}
